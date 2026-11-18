@@ -1,0 +1,34 @@
+project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  modelVersion>4.0.0modelVersion>
+  groupId>edu.collegegroupId>
+  artifactId>teachers-feedback-systemartifactId>
+  version>1.0.0version>
+  properties>
+    maven.compiler.release>17maven.compiler.release>
+    project.build.sourceEncoding>UTF-8project.build.sourceEncoding>
+  properties>
+  dependencies>
+    dependency>
+      groupId>com.mysqlgroupId>
+      artifactId>mysql-connector-jartifactId>
+      version>9.1.0version>
+    dependency>
+  dependencies>
+  build>
+    plugins>
+      plugin>
+        groupId>org.apache.maven.pluginsgroupId>
+        artifactId>maven-compiler-pluginartifactId>
+        version>3.13.0version>
+      plugin>
+      plugin>
+        groupId>org.codehaus.mojogroupId>
+        artifactId>exec-maven-pluginartifactId>
+        version>3.5.0version>
+        configuration>
+          mainClass>teachersfeedback.MainmainClass>
+        configuration>
+      plugin>
+    plugins>
+  build>
+project>
